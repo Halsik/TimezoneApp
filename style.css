@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?europe');
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+button {
+    font-size: 14px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 1em 1em;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    transition: 0.3s;
+    color: white;
+    background: #3b3b3b;
+}
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    margin: 10px;
+    
+}
+
+
+button:hover {
+    color: white;
+    background: #da1919;
+    
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-size: 9em;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.pressed {
+    transform: scale(1.1);
+    box-shadow: #da1919 0px 0px 10px 1px;
+    background: #da1919;
+}
+
+
