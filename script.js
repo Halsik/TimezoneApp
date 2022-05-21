@@ -32,7 +32,6 @@ let time = {
         newStr = firstCut.substr(0, newStr.length-13)
         // Print data in HTML
         clock.innerHTML = newStr
-        
     },
     
 }
