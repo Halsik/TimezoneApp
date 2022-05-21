@@ -32,8 +32,7 @@ let time = {
         newStr = firstCut.substr(0, newStr.length-13)
         // Print data in HTML
         clock.innerHTML = newStr
-        // Change background image every button click
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + region + "')"
+        
     },
     
 }
@@ -49,6 +48,7 @@ function resetButton() {
     americaButton.classList.remove("pressed");
     australiaButton.classList.remove("pressed");
     africaButton.classList.remove("pressed");
+    
 }
 
 // Button event listner and add "pressed" class
@@ -58,6 +58,8 @@ europeButton.addEventListener('click', function() {
     region = "europe"
     area = "warsaw"
     time.fetchTime(region, area)
+    // Change background image every button click
+    document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + region + ")"
 });
 
 asiaButton.addEventListener('click', function() {
@@ -66,6 +68,8 @@ asiaButton.addEventListener('click', function() {
     region = "asia"
     area = "tokyo"
     time.fetchTime(region, area)
+    // Change background image every button click
+    document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + region + ")"
 });
 
 americaButton.addEventListener('click', function() {
@@ -74,6 +78,8 @@ americaButton.addEventListener('click', function() {
     region = "america"
     area = "new_york"
     time.fetchTime(region, area)
+    // Change background image every button click
+    document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + region + ")"
 });
 
 africaButton.addEventListener('click', function() {
@@ -82,6 +88,8 @@ africaButton.addEventListener('click', function() {
     region = "africa"
     area = "cairo"
     time.fetchTime(region, area)
+    // Change background image every button click
+    document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + region + ")"
 });
 
 australiaButton.addEventListener('click', function() {
@@ -90,5 +98,7 @@ australiaButton.addEventListener('click', function() {
     region = "australia"
     area = "sydney"
     time.fetchTime(region, area)
+    // Change background image every button click
+    document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + region + ")"
 });
 
