@@ -6,5 +6,5 @@ Choose timezone and check what time is it in all regions! 🕑 🕑 🕑
 
 Link to the site :)
 
-https://halsik.github.io/TimezoneApp/
+
 
